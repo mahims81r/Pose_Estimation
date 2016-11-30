@@ -4,7 +4,7 @@ The matlab code pose/demo.m estimates the pose of uppper part of Human body used
 Put the pretrained model in caffe-heatmap/models and run the matlab file pose/demo.m. Instructions for training your own model are provided at [caffe-heat](https://github.com/tpfister/caffe-heatmap).
 
 # Personalization
-This uses the temporal informatioin video to improve the model.
+This uses the temporal informatioin in video to improve the model. And requires manual or automatic annotation in starting and then spreads them over the entire video.
 
 ## Prerequsites
 matlab, VLFeat, DeepFlow.
